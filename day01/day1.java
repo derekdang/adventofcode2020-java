@@ -6,9 +6,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * https://adventofcode.com/2020/day/1 Part 1: The two entries that sum to 2020
- * are: 1583, 437. Their product is: 691771 Part 2: The three entries that sum
- * to 2020 are: 335, 717, 968. Their product is: 232508760
+ * https://adventofcode.com/2020/day/1
  */
 public class day1 {
     public static void main(String[] args) {
@@ -21,7 +19,7 @@ public class day1 {
                 int complement = 2020 - i;
                 if (set.contains(complement)) {
                     System.out.printf("Part 1: The two entries that sum to 2020 are: %d, %d. Their product is: %d\n", i,
-                            complement, i * complement);
+                            complement, i * complement); // 691771
                 }
                 set.add(i);
             }
@@ -42,7 +40,7 @@ public class day1 {
                 if (x + arr[l] + arr[r] == 2020) {
                     System.out.printf(
                             "Part 2: The three entries that sum to 2020 are: %d, %d, %d. Their product is: %d\n", x,
-                            arr[l], arr[r], x * arr[l] * arr[r]);
+                            arr[l], arr[r], x * arr[l] * arr[r]); // 232508760
                     break;
                 } else if (x + arr[l] + arr[r] > 2020) {
                     r--;
