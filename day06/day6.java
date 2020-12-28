@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * https://adventofcode.com/2020/day/5
+ * https://adventofcode.com/2020/day/6
  */
 public class day6 {
     public static void main(String[] args) {
