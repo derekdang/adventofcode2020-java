@@ -34,7 +34,6 @@ public class day12 {
                 ship.travel(instruction, unit);
                 ship2.moveWayPoint(instruction, unit);
             }
-            System.out.println(ship2.toString());
         }
 
         int manhanttanDistance = Math.abs(ship.x) + Math.abs(ship.y);
