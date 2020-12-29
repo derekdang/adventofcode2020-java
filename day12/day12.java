@@ -37,11 +37,11 @@ public class day12 {
         }
 
         int manhanttanDistance = Math.abs(ship.x) + Math.abs(ship.y);
-        System.out.printf("Part 1: Manhattan distance from start to end position: %d\n", manhanttanDistance);
+        System.out.printf("Part 1: Manhattan distance from start to end position: %d\n", manhanttanDistance); // 938
 
         int manhanttanDistance2 = Math.abs(ship2.x) + Math.abs(ship2.y);
         System.out.printf("Part 2: Manhattan distance from start to end position w/ new logic: %d\n",
-                manhanttanDistance2);
+                manhanttanDistance2); // 54404
     }
 
     public static class Ship {
